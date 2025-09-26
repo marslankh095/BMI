@@ -14,7 +14,7 @@
             android:name=".activity.GenderAct"
             android:exported="false" />
         <activity
-            android:name=".activity.Dashboard"
+            android:name=".activity.SplashAct"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,11 +32,7 @@
             android:name=".activity.HeightScreen"
             android:exported="true">
         </activity>
-        <activity
-            android:name=".activity.SplashAct"
-            android:exported="true"
-            android:screenOrientation="portrait">
-        </activity>
+
         <activity
             android:name=".activity.MainActivity"
             android:exported="true"
